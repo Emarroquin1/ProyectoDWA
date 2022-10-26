@@ -1,0 +1,98 @@
+html, body {
+  min-height: 100%;
+}
+
+#homeMenu{
+    color: #0aaadb;
+}
+
+.navbar{
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 1000;
+}
+
+.navbar-nav.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+    background-color: white;
+}
+
+.imgCarusel{
+    height: 500px;
+}
+
+.ImgTabla{
+    width: 350px;
+    height: 300px;
+
+  }
+
+  @media (max-width: 850px){
+    .ImgTabla{
+      height: 360px;
+        width: 65%;    
+    }
+
+  }
+
+@media (max-width: 576px) {
+    .imgCarusel {
+      height: 100%;
+    }
+
+    .ImgTabla{
+        height: 160px;
+        width: 80%;    
+    }
+  }
+
+
+  .textCarusel2{
+    text-align: center;
+  }
+
+  .carousel-dark .carousel-caption {
+    color: #000;
+    background-color: #43a7ff;
+  }
+
+
+  
+
+  .imgFooter{
+height: 25px;
+width: 25px;
+  }
+
+
+  section p
+{
+  overflow: hidden;
+  max-height: 0;
+  text-align: justify;
+  transition: all .2s ease-in-out;
+}
+
+section a
+{
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  padding: 10px;
+  background-color: rgb(14, 14, 14);
+  color: white;
+  border-bottom: 2px solid gray;
+}
+
+section:target p
+{
+  max-height: 150px;
+  padding: 10px;
+} 
+
+.container{
+  margin-top: 2%;
+}
