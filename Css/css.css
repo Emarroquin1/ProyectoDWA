@@ -104,3 +104,38 @@ section:target p
   -moz-box-shadow: 10px 10px 23px 1px rgba(8, 66, 89, 0.75);
 
 }
+.imgNews{
+  height: 400px;
+  width: 65%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.pNews{
+  margin-bottom: 0;
+}
+.aNews{
+  
+}
+#divNews{
+  height: 100%;
+  position: relative;
+  background-color: aliceblue;
+}
+
+/*Responsive*/
+
+
+@media  (max-width:760px)  {
+
+   
+  .imgNews{
+    width: 90%;
+    height: 100%;
+  }}
+
+  .btnRefresh{
+    height: 50px;
+  cursor: pointer;
+    width: 50px;
+  }
+
