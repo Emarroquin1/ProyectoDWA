@@ -137,5 +137,15 @@ section:target p
     height: 50px;
   cursor: pointer;
     width: 50px;
+    position: absolute;
+    right: 0;
+    top: 0;
+
   }
 
+@media  (max-width:950px)  {
+
+   
+  .btnRefresh{
+    position: relative;
+  }}
