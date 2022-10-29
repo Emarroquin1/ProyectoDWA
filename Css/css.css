@@ -149,3 +149,10 @@ section:target p
   .btnRefresh{
     position: relative;
   }}
+
+  /*Style develipers*/
+
+  #avatar{
+    height: 100px;
+    width: 100px;
+  }

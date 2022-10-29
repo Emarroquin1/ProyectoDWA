@@ -22,8 +22,11 @@
    
     <title>Ejercicio 2</title>
 
+<!-- JQUERY -->
+<script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js" integrity="sha512-AA1Bzp5Q0K1KanKKmvN/4d3IRKVlv9PYgwFPvm32nPO6QS8yH1HO7LbgB1pgiOxPtfeg5zEn2ba64MUcqJx6CA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
-    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+   
 </head>
 <body style="background: linear-gradient(#ffffff, #3d819f)">
 
@@ -56,6 +59,7 @@
               <li class="nav-item">
                 <a class="nav-link active"  href="#about">About</a>
               </li>
+              
             
               <li class="nav-item">
                 <a class="nav-link active" href="#contactanos">Contacto</a>
@@ -63,13 +67,15 @@
               <li class="nav-item">
                 <a class="nav-link active"  href="developers.html">Developers</a>
               </li>
+            
               <li class="nav-item">
                 <a class="nav-link active" href="news.html">Freelancer News</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link active" href="ubicacion.html">Mi ubicación</a>
               </li>
-           
+
+     
             </ul>
         
      
@@ -80,13 +86,83 @@
 
    
 
-<div class="container">
+<div class="container text-center">
+
+<div id="divDevelopers" class="row">
+<form >
+<div class="row">
+<div class="col-9">
+    <input type="usuario" class="form-control" id="txtuserGit" placeholder="Insertar el usuario de Github"> 
+</div>
+<div class="col-3">
+    <button type="submit" id="btnBuscar" class="btn btn-info mb-3">Buscar</button>    
+</div>
 
 
-   
+
+
+</div>
+        
+</form>
+<table class="table table-dark table-striped" id="tablaUsuario">
+    <thead>
+        <tr>
+            <th>
+                User
+            </th>
+            <th>
+                Avatar
+            </th>
+            <th>
+                totalRepositories            
+            </th>
+        </tr>
+
+        
+    </thead>
+
+</table>
+  
+</div>
+
+   <div class="row" id="content">
+
+<table id="tabla2" class="table table-dark table-striped">
+    <thead>
+        <tr  class="table-dark" style="text-align: center;">
+            <th colspan="12">
+                REPOSITORIES
+            </th>
+        </tr>
+
+        <tr>
+            <th>
+                repository name            
+            </th>
+       
+            <th>
+                Description
+            </th>
+        
+        <th>
+            Programing Language
+        </th>
+<th>
+    URL
+</th>
+        </tr>
+        
+    </thead>
+
+
+
+</table>
+
+   </div>
   
 </div>
    <script src="Java/java.js"></script>
+   <script src="Java/developers.js"></script>
 </body>
 </html>
 </body>
