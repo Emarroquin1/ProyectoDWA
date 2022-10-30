@@ -14,7 +14,7 @@ window.addEventListener('load', function(){
              }).addTo(map)
 
              //creacion de marcador
-             const marker = L.marker([lat,lon],{alt:'Ubicación Buscada'}).addTo(map).bindPopup('TU ESTAS AQUI').openPopup();
+             const marker = L.marker([lat,lon],{alt:'Location Searched'}).addTo(map).bindPopup('YOU ARE HERE').openPopup();
 
 
 
@@ -24,7 +24,7 @@ window.addEventListener('load', function(){
 
 
      }else{
-         console.log("El navegador no permite Geolocalización");
+         console.log("The navigator doesn't allow location");
      }
 
 });

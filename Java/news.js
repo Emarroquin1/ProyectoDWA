@@ -32,8 +32,8 @@ for (let i = 0; i < response['articles'].length; i++) {
 			ellipsis_box(".limitado", 1200);
 			});
 
-		divNews.innerHTML+='<h3>Autor: '+response['articles'][i].author+'</h3> <img class="imgNews" src="'+response['articles'][i].media+'"><p>Fecha de publicación: '+response['articles'][i].published_date+'</p>'+
-		'<p class="limitado pNews">'+response['articles'][i].summary+'</p> <a class="aNews" target="_blank" href="'+response['articles'][i].link+'">Leer más...</a><hr>';
+		divNews.innerHTML+='<h3>Author: '+response['articles'][i].author+'</h3> <img class="imgNews" src="'+response['articles'][i].media+'"><p>Publication date: '+response['articles'][i].published_date+'</p>'+
+		'<p class="limitado pNews">'+response['articles'][i].summary+'</p> <a class="aNews" target="_blank" href="'+response['articles'][i].link+'">Read more...</a><hr>';
 
 
 	
@@ -80,13 +80,13 @@ for (let i = 0; i < response['articles'].length; i++) {
 					});
 		
 					if(i==0){
-						divNews.innerHTML='<h3>Autor: '+response['articles'][i].author+'</h3> <img class="imgNews" src="'+response['articles'][i].media+'"><p>Fecha de publicación: '+response['articles'][i].published_date+'</p>'+
-				'<p class="limitado pNews">'+response['articles'][i].summary+'</p> <a class="aNews" target="_blank" href="'+response['articles'][i].link+'">Leer más...</a><hr>';
+						divNews.innerHTML='<h3>Author: '+response['articles'][i].author+'</h3> <img class="imgNews" src="'+response['articles'][i].media+'"><p>Publication date: '+response['articles'][i].published_date+'</p>'+
+				'<p class="limitado pNews">'+response['articles'][i].summary+'</p> <a class="aNews" target="_blank" href="'+response['articles'][i].link+'">Read more...</a><hr>';
 		
 		
 					}else{
-				divNews.innerHTML+='<h3>Autor: '+response['articles'][i].author+'</h3> <img class="imgNews" src="'+response['articles'][i].media+'"><p>Fecha de publicación: '+response['articles'][i].published_date+'</p>'+
-				'<p class="limitado pNews">'+response['articles'][i].summary+'</p> <a class="aNews" target="_blank" href="'+response['articles'][i].link+'">Leer más...</a><hr>';
+				divNews.innerHTML+='<h3>Author: '+response['articles'][i].author+'</h3> <img class="imgNews" src="'+response['articles'][i].media+'"><p>Publication date: '+response['articles'][i].published_date+'</p>'+
+				'<p class="limitado pNews">'+response['articles'][i].summary+'</p> <a class="aNews" target="_blank" href="'+response['articles'][i].link+'">Read more...</a><hr>';
 					}
 		
 			

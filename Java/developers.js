@@ -53,6 +53,40 @@ fetch('https://github-non-official-apis.p.rapidapi.com/fetch?url=https%3A%2F%2Fg
 	.then(response => response.json())
 	.then(response => {console.log(response)
     
+        tabla.innerHTML='<thead>'+
+        '<tr>'+
+         '<th>'+
+           'User'+
+          '</th>'+
+           '<th>'+
+            'Avatar'+
+            '</th>'+
+        '<th>'+
+        'totalRepositories'+           
+            '</th>'+
+        '</tr>'+
+    '</thead>';
+        tabla2.innerHTML='<thead>'+
+        '<tr  class="table-dark" style="text-align: center;">'+
+            '<th colspan="12">'+
+                'REPOSITORIES'+
+            '</th>'+
+        '</tr>'+
+        '<tr>'+
+            '<th>'+
+                'repository name'+            
+            '</th>'+
+            '<th>'+
+                'Description'+
+            '</th>'+
+        '<th>'+
+            'Programing Language'+
+        '</th>'+
+'<th>'+
+    'URL'+
+'</th>'+
+        '</tr>'+       
+    '</thead>';
 
     tabla.innerHTML+='<tbody>'+ 
     '<tr>'+
@@ -115,13 +149,13 @@ fetch('https://github-non-official-apis.p.rapidapi.com/fetch?url=https%3A%2F%2Fg
         '</tr>'+       
     '</thead>';
 
-    alert('Usuario no encontrado')});
+    alert("User doesn't find")});
 
 
 
 
   }else{
-    alert("Porfavor insertar el usuario que desea buscar");
+    alert("Please insert an user for searching him");
   }
 
 
