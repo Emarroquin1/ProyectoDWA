@@ -8,6 +8,6 @@ const options = {
 	}
 };
 
-fetch('https://cors-anywhere.herokuapp.com/https://www.universal-tutorial.com/api/getaccesstoken', options)
+fetch('https://www.universal-tutorial.com/api/getaccesstoken', options)
 	.then(response => response.json())
 	.then(response => console.log(response))
