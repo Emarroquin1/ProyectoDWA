@@ -156,3 +156,12 @@ section:target p
     height: 100px;
     width: 100px;
   }
+
+  #divJobs{
+    background-color: azure;
+  }
+
+  .imgLogo{
+    height: 150px;
+    width: 150px;
+  }
