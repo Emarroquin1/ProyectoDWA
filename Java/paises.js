@@ -1,13 +1,60 @@
 
 const options = {
 	method: 'GET',
-	headers: {
-     "Accept": "application/json",
-    "api-token": "bprdyF4mjrNnXU3_gKA7Gb_-ojXpb2I2Dxf6bYfkVQdVn4Igr78eQ4VFeUgb0ghqlWA",
-    "user-email": "erickmarroquin503@hotmail.com"
-	}
+	
 };
+var paises=[];
+fetch('https://restcountries.com/v3.1/all', options)
+	.then(response2 => response2.json())
+	.then(response2 => {console.log(response2)
+	
+		for (let i = 0; i < response2.length; i++) {
+           let objPaises={nombre:'',acronimo:''}
+		
 
-fetch('https://www.universal-tutorial.com/api/getaccesstoken', options)
-	.then(response => response.json())
-	.then(response => console.log(response))
+
+		   for (let e = 0; e < response2[i].altSpellings.length; e++) {
+          
+			
+
+				if(e==1){
+
+					objPaises.nombre=response2[i].altSpellings[e];
+
+				}else if (e==0){
+
+					objPaises.acronimo=response2[i].altSpellings[e];
+
+				}
+				
+			
+			
+		
+			
+		}
+		if(objPaises.nombre!=''){
+			paises.push(objPaises);
+		}
+
+		}
+	
+		paises.sort();
+		var selectPaises = document.getElementById('selectPaises');
+		for (value in paises) {
+			var option = document.createElement("option");
+			option.text = paises[value].nombre;
+			selectPaises.add(option);
+		   }
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	})

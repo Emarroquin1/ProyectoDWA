@@ -16,7 +16,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
-
+<a target="_blank" href=""></a>
     <link rel="stylesheet" type="text/css" href="Css/css.css">
     
    
@@ -89,21 +89,25 @@
    
 
 <div class="container">
-
+  <form class="formjobs">
     <div class="row">
-        <div class="col-9">
-            <input type="usuario" class="form-control" id="txtLanguage" placeholder="Insert the Job"> 
-            <input type="usuario" class="form-control" id="txt" placeholder="Insert the Job"> 
+        <div class="col-7">
+            <input type="usuario" class="form-control" id="txtSearch" placeholder="Insert a job, example: Web developer JavaScript.."> 
         </div>
         <div class="col-3">
+          <select id="selectPaises" class="form-select form-select-sm" aria-label=".form-select-sm example">
+            <option selected>Select a country</option>
+        
+          </select>
+        </div>
+        <div class="col-2">
             <button type="submit" id="btnBuscar" class="btn btn-info mb-3">Search</button>    
         </div>
-    </div>
+      </div>
+</form>  
 <div id="divJobs" class="row">
 
-
-  
-
+<h1 style="text-align: center;">Developer Jobs</h2>
 
 </div>
 
@@ -113,6 +117,7 @@
 
    <script src="Java/java.js"></script>
 <script src="Java/paises.js"></script>
+<script src="Java/jobs.js"></script>
 </body>
 </html>
 </body>
