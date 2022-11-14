@@ -1,4 +1,4 @@
-#app-messenger, #app-whatsapp{
+#app-whatsapp{
 	position: fixed;
 	right: 24px;
 	bottom: 25px;
@@ -10,15 +10,11 @@
 	bottom: 95px;
 	display: block;
 }
-#app-messenger i, #app-whatsapp i{
-	font-size: 63px;
-}
+
 #app-whatsapp i{
 	color: #1ebea5;
 }
-#app-messenger i{
-	color: #0084ff;	
-}
+
 
 @media screen and (max-width: 766px){
 	#fb-root{
