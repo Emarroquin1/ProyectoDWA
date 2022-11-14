@@ -159,7 +159,8 @@ section:target p
 
   #divJobs{
     margin-top: 2%;
-    background-color: azure;
+    background-color: #39474d;
+    color: white;
   }
 
   .imgLogo{
