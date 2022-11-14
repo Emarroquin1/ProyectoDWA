@@ -17,11 +17,3 @@
 	color: #1ebea5;
 }
 
-@media screen and (max-width: 766px){
-	#fb-root{
-		display: none;
-	}
-	#app-messenger{
-		display: block;
-	}
-}
