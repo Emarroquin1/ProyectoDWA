@@ -10,11 +10,12 @@
 	bottom: 95px;
 	display: block;
 }
-
+ #app-whatsapp i{
+	font-size: 63px;
+}
 #app-whatsapp i{
 	color: #1ebea5;
 }
-
 
 @media screen and (max-width: 766px){
 	#fb-root{
