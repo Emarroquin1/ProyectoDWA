@@ -16,17 +16,11 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
-<a target="_blank" href=""></a>
+
     <link rel="stylesheet" type="text/css" href="Css/css.css">
-    
-   
-    <title>Ejercicio 2</title>
-
-<!-- JQUERY -->
-<script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js" integrity="sha512-AA1Bzp5Q0K1KanKKmvN/4d3IRKVlv9PYgwFPvm32nPO6QS8yH1HO7LbgB1pgiOxPtfeg5zEn2ba64MUcqJx6CA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
    
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 </head>
 <body style="background: linear-gradient(#ffffff, #3d819f)">
 
@@ -39,8 +33,7 @@
       
 
     
-    
-    <nav class="navbar navbar-expand-lg  navbar-light bg-ligh">
+ <nav class="navbar navbar-expand-lg  navbar-light bg-ligh">
         <div class="container-fluid">
             <img  style="width: 75px; height: 45px; vertical-align: 0; 
             "src="images/logo.png" alt="">
@@ -56,6 +49,7 @@
                 
                     <a class="nav-link active" style="color: #0aaadb;" href="index.html">Home</a>
                   </li>
+
                   <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                       About APIS
@@ -69,6 +63,7 @@
               <li class="nav-item">
                 <a class="nav-link active" href="Contactanos.html">Contacto</a>
               </li>
+              
               <li class="nav-item">
                 <a class="nav-link active"  href="developers.html">Developers</a>
               </li>
@@ -79,13 +74,11 @@
                 <a class="nav-link active" href="news.html">Freelancer News</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="ubicacion.html">My ubication</a>
+                <a class="nav-link active" href="ubicacion.html">Mi ubicación</a>
               </li>
-
-     
+           
             </ul>
         
-            <a id="btnRefresh"><img class="btnRefresh" src="https://cdn.pixabay.com/photo/2017/01/10/03/54/icon-1968246_960_720.png" alt=""></a>
      
            
           </div>
@@ -94,37 +87,70 @@
 
    
 
-<div class="container">
-  <form class="formjobs">
-    <div class="row">
-        <div class="col-7">
-            <input type="usuario" class="form-control" id="txtSearch" placeholder="Insert a job, example: Web developer JavaScript.."> 
-        </div>
-        <div class="col-3">
-          <select id="selectPaises" class="form-select form-select-sm" aria-label=".form-select-sm example">
-            <option selected>Select a country</option>
+  <div class="container">
+    
+
+    <div class="row" style="background-color: white;">
+
+
+        <div style="text-align: center;">
         
-          </select>
+        
+            
+        <p>Nombre de la API <b>Newscatcher</b></p> 
+        <img class="imgFood" src="https://rapidapi.com/cdn/images?url=https://rapidapi-prod-apis.s3.amazonaws.com/54ac689a-9f25-4e8e-90ff-2f574fa7c158.png">
+        <p>Logo API</p>
+        <hr>
+        <img class="imgFood" src="https://rapidapi.com/cdn/images?url=https://rapidapi-prod-apis.s3.amazonaws.com/54ac689a-9f25-4e8e-90ff-2f574fa7c158.png">
+        <p>Creador: Newscatcher</p>
+        <p><b>Descripcion.</b></p> 
+    </div>
+
+        <p>
+        
+          API ultrarrápida para encontrar artículos de noticias por cualquier tema, país, idioma, sitio web o palabra clave.
+
+          La mejor API de NOTICIAS de precio-calidad del mercado:
+          
+          Búsqueda en varios idiomas
+          Fuentes cuidadosamente seleccionadas
+          Tiempo de respuesta rápido
+          Amplia documentación
+          Soporte REAL en varios idiomas:
+          
+          inglés
+          Alemán
+          Francés
+          español
+          italiano
+          ruso
+          turco
+          Arábica
+          danés
+          sueco
+
+
+        </p>
+        
+             <p>Enlace de la documentación: <a  target="_blank" href="https://www.notion.so/newscatcherapi/NewsCatcher-API-Documentation-ca4415628d0e4a82be7c65d70b9f63ef">
+                Enlace
+             </a></p>
+
         </div>
-        <div class="col-2">
-            <button type="submit" id="btnBuscar" class="btn btn-info mb-3">Search</button>    
-        </div>
-      </div>
-</form>  
-<div id="divJobs" class="row">
+        
 
-<h1 style="text-align: center;">Developer Jobs</h2>
-
-</div>
-
-
-     
+       
+ 
   
-</div>
+  </div>
+
 
    <script src="Java/java.js"></script>
-<script src="Java/paises.js"></script>
-<script src="Java/jobs.js"></script>
+   
+
+   <script src="https://kit.fontawesome.com/ae9de5bf1f.js" crossorigin="anonymous"></script>
+
+
 </body>
 </html>
 </body>

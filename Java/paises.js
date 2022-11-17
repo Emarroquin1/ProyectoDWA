@@ -45,16 +45,5 @@ fetch('https://restcountries.com/v3.1/all', options)
 			option.text = paises[value].nombre;
 			selectPaises.add(option);
 		   }
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+
 	})

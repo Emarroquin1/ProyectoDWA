@@ -152,6 +152,8 @@ section:target p
 
   /*Style develipers*/
 
+
+
   #avatar{
     height: 100px;
     width: 100px;
@@ -175,3 +177,85 @@ padding: 2%;
 padding-right: 0%;
 padding-bottom: 1%;
   }
+
+
+  .imgFood{
+
+    height: 150px;
+    width: 150px;
+  }
+
+  .contenedorMain{
+    background-image: linear-gradient(
+179.2deg,
+#ffffff 0%, #4cbdee 25%, #2e89b1 50%, #185b77 75%, #092b3a 100%
+
+    );
+  
+  width: 100%;
+  height: 1500vh;
+  overflow: hidden;
+  
+  }
+
+  .contenedorAnimacion {
+    position: relative;
+    height: 1490vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .nave{
+  
+    top: 100px;
+  position: absolute;
+    width: 350px;
+    height: 350px;
+ 
+  
+  }
+  
+  .codigo{
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    opacity: 0;
+  }
+
+  .codigo1{
+   opacity: 1;
+    right: 5%;
+    top: 100vh;
+
+  }
+
+  .codigo2{
+    opacity: 0;
+     left: 5%;
+     top: 100vh;
+ 
+   }
+
+   .codigo3{
+    opacity: 0;
+     left: 5%;
+     top: 100vh;
+ 
+   }
+   .codigo4{
+    opacity: 0;
+     right: 5%;
+     top: 100vh;
+ 
+   }
+ 
+   .texto{
+    color: white;
+    position: absolute;
+    opacity: 0;
+    right: 10%;
+    top: 100vh;
+
+   }

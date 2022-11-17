@@ -93,13 +93,14 @@ var acronimo = paises[a].acronimo;
         }
 
         return acronimo;
-        
+
       }
 
 
 
 
 document.getElementById("btnBuscar").addEventListener('click',function(e){
+
     e.preventDefault();
 
     divJobs.innerHTML='';
